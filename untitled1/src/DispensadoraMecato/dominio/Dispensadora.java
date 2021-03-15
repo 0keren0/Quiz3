@@ -44,7 +44,7 @@ public class Dispensadora {
         System.out.println("Ingrese la cantidad que agregará: ");
         Scanner cantidadSuministrada = new Scanner(System.in);
         for (Producto producto : productos) {
-            if (nombreSuministrado.next() == producto.getNombre()) {
+            if (nombreSuministrado.next().equals(producto.getNombre())) {
                 System.out.println("La cantidad actual del producto" + producto.getNombre() + "es:" + producto.getCantidad());
                 producto.setCantidad(cantidadSuministrada.nextInt() + producto.getCantidad());
                 System.out.println("La nueva cantidad del producto" + producto.getNombre() + "es:" + producto.getCantidad());
@@ -58,12 +58,7 @@ public class Dispensadora {
         Scanner nombreProductoAComprar = new Scanner(System.in);
         for (Producto productoVenta : productos) {
             if (productoVenta.getNombre().equalsIgnoreCase(nombreProductoAComprar.nextLine())) {
-                if (productoVenta.getCantidad() == 0) {
-                    return false;
-                }
-                else {
-                    return true;
-                }
+                return productoVenta.getCantidad() != 0;
             }
             if(sacarUnidadDeUnProducto() == true){
                 sacarUnidad = true;
