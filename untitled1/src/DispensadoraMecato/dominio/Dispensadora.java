@@ -52,25 +52,27 @@ public class Dispensadora {
         }
     }
 
-    public void sacarUnidadDeUnProducto() {
-        String sacarUnidad = "";
+    public Boolean sacarUnidadDeUnProducto() {
+        Boolean sacarUnidad = false;
         System.out.println("Ingrese el nombre del producto que desea comprar: ");
         Scanner nombreProductoAComprar = new Scanner(System.in);
         for (Producto productoVenta : productos) {
             if (productoVenta.getNombre().equalsIgnoreCase(nombreProductoAComprar.nextLine())) {
                 if (productoVenta.getCantidad() == 0) {
-                    System.out.println("No hay la suficiente cantidad");
+                    return false;
                 }
                 else {
-                    productoVenta.setCantidad(productoVenta.getCantidad() - 1);
-                    System.out.println("El producto: "+ productoVenta.getNombre() + " ha sido vendido con éxito" );
+                    return true;
                 }
-            } else {
-                System.out.println("El producto que indicaste, no está a la venta :(");
             }
-            //nombreProductoAComprar.nextLine() == productoVenta.getNombre()
+            if(sacarUnidadDeUnProducto() == true){
+                sacarUnidad = true;
+                productoVenta.setCantidad(productoVenta.getCantidad() - 1);
+            }
+
         }
 
+        return sacarUnidad;
     }
     public String cantidadMaxima(){
         String cantidadMax = "";
