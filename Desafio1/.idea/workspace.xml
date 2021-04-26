@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a6904e7-c38f-4304-83f9-506a1a6c827c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/Pacial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/Pooflix/app/Aplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/Pooflix/dominio/Material.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/Pooflix/dominio/Pooflix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/Pooflix/dominio/TipoMaterial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/TourFrancia/app/Aplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/TourFrancia/dominio/Corredor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/TourFrancia/dominio/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/TourFrancia/dominio/Tour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/untitled2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desafio1/CalculadoraPOO/app/AppCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafio1/CalculadoraPOO/app/AppCalculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desafio1/CalculadoraPOO/dominio/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafio1/CalculadoraPOO/dominio/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraPOO/app/AppCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraPOO/app/AppCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraPOO/dominio/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraPOO/dominio/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pacial/out/production/Pacial/Tarea/dominio/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/Tarea/dominio/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pacial/out/production/Pacial/TareaJO/app/AppCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/TareaJO/app/AppCalculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pacial/out/production/Pacial/TareaJO/dominio/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Pacial/out/production/Pacial/TareaJO/dominio/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pacial/src/Tarea/dominio/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pacial/src/Tarea/dominio/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pacial/src/TareaJO/app/AppCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pacial/src/TareaJO/app/AppCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pacial/src/TareaJO/dominio/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pacial/src/TareaJO/dominio/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/DispensadoraMecato/app/Aplicación.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/DispensadoraMecato/app/Aplicación.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/DispensadoraMecato/dominio/Dispensadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/DispensadoraMecato/dominio/Dispensadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/DispensadoraMecato/dominio/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/DispensadoraMecato/dominio/Producto.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ri7htQK7PIOi1eDXbKIh1iOxLL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AppCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculadoraPOO.app.AppCalculadora" />
+      <module name="Desafio1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculadoraPOO.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppCalculadora" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a6904e7-c38f-4304-83f9-506a1a6c827c" name="Default Changelist" comment="" />
+      <created>1619447184397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619447184397</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Desafío 1, primer punto.">
+      <created>1619454067469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619454067469</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Desafío 1, primer punto.">
+      <created>1619454101610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619454101610</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Desafío 1, primer punto.">
+      <created>1619454745536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619454745536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Desafío 1, primer punto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafío 1, primer punto." />
+  </component>
+</project>

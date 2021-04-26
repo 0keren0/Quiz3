@@ -13,6 +13,7 @@ public class Calculadora {
         public static double restar(List<Double> restados) {
             double resta = 0;
             for (Double numeroARes:restados) {
+                resta = restados.get(0);
                 resta -= numeroARes;
             }
             return resta;
@@ -29,7 +30,8 @@ public class Calculadora {
             double dividir = 0;
             for (Double numeroADividir: divididos
             ) {
-                dividir /= numeroADividir;
+                dividir = divididos.get(0);
+                 dividir /= numeroADividir;
             }
             return dividir;
         }

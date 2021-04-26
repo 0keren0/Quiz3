@@ -41,7 +41,7 @@ public class AppCalculadora {
                 mostrarMensaje("Recuerda que al escoger esta operación no puedes dividir por 0, es un error matemático.");
             }
             if (operacionElegida == MULTIPLICAR) {
-                mostrarMensaje("Recuerda que al escoger esta operación no puedes multiplicar por 0, tu resultado será siempre 0");
+                mostrarMensaje("Recuerda que al escoger esta operación no tiene sentido multiplicar por 0, tu resultado será siempre 0");
             }
 
             //Array de numeros
@@ -64,50 +64,53 @@ public class AppCalculadora {
 
 
                 switch (operacionElegida) {
-                    case SUMAR: {
-                        double suma = Calculadora.sumar(numerosAñadidos);
-                        double resultado = suma;
-                        if (checkbox.isSelected() == true) {
-                            mostrarMensaje("El resultado es: " + Math.round(resultado));
-                        } else
-                            mostrarMensaje("El resultado es: " + resultado);
-                        break;
-                    }
-                    case RESTAR: {
-                        double resta = Calculadora.restar(numerosAñadidos);
-                        double resultado = resta;
-                        if (checkbox.isSelected() == true) {
-                            mostrarMensaje("El resultado es: " + Math.round(resultado));
-                        } else
-                            mostrarMensaje("El resultado es: " + resultado);
-                        break;
-                    }
-                    case MULTIPLICAR: {
-                        double multiplicacion = Calculadora.multiplicar(numerosAñadidos);
-                        double resultado = multiplicacion;
-                        if (checkbox.isSelected() == true) {
-                            mostrarMensaje("El resultado es: " + Math.round(resultado));
-                        } else
-                            mostrarMensaje("El resultado es: " + resultado);
-                        break;
-                    }
-                    case DIVIDIR: {
-                        double division = Calculadora.dividir(numerosAñadidos);
-                        double resultado = division;
-                        if (numerosAñadidos.contains(0)) {
-                            mostrarMensaje("Error en los numeros agregados, posiblemente un cero");
+
+                        case SUMAR: {
+                            double suma = Calculadora.sumar(numerosAñadidos);
+                            double resultado = suma;
+                            if (checkbox.isSelected() == true) {
+                                mostrarMensaje("El resultado es: " + Math.round(resultado));
+                            } else
+                                mostrarMensaje("El resultado es: " + resultado);
                             break;
                         }
-                        if (checkbox.isSelected() == true) {
-                            mostrarMensaje("El resultado es: " + Math.round(resultado));
-                        } else
-                            mostrarMensaje("El resultado es: " + resultado);
-                        break;
+                        case RESTAR: {
+                            double resta = Calculadora.restar(numerosAñadidos);
+                            double resultado = resta;
+                            if (checkbox.isSelected() == true) {
+                                mostrarMensaje("El resultado es: " + Math.round(resultado));
+                            } else
+                                mostrarMensaje("El resultado es: " + resultado);
+                            break;
 
-                    }
-                    default:
-                        mostrarMensaje("No has seleccionado ninguna operación :(");
-                        seguirEjecutando = false;
+                        }
+                        case MULTIPLICAR: {
+                            double multiplicacion = Calculadora.multiplicar(numerosAñadidos);
+                            double resultado = multiplicacion;
+                            if (checkbox.isSelected() == true) {
+                                mostrarMensaje("El resultado es: " + Math.round(resultado));
+                            } else
+                                mostrarMensaje("El resultado es: " + resultado);
+                            break;
+                        }
+                        case DIVIDIR: {
+                            double division = Calculadora.dividir(numerosAñadidos);
+                            double resultado = division;
+                            if (numerosAñadidos.contains(0)) {
+                                mostrarMensaje("Error en los numeros agregados, posiblemente un cero");
+                                break;
+                            }
+                            if (checkbox.isSelected() == true) {
+                                mostrarMensaje("El resultado es: " + Math.round(resultado));
+                            } else
+                                mostrarMensaje("El resultado es: " + resultado);
+                            break;
+
+                        }
+                        default:
+                            mostrarMensaje("No has seleccionado ninguna operación :(");
+                            seguirEjecutando = false;
+
                 }
             }
         }
